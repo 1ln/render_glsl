@@ -1,7 +1,4 @@
-#version 330 core 
-
-out vec4 fragColor;
-
+precision mediump float;
 uniform vec2 resolution;
 uniform float time;
 
@@ -10,7 +7,6 @@ uniform float time;
 #define T time
 #define S smoothstep
 
-#define BOXES
 #define SEED 1
 
 #define AA 1
